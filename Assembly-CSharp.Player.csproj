@@ -59,7 +59,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ThirdPersonCharacterController.cs" />
-    <Compile Include="Assets\Scripts\Playermanager.cs" />
     <Compile Include="Assets\Scripts\ItemPickup.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonController.cs" />
   </ItemGroup>
