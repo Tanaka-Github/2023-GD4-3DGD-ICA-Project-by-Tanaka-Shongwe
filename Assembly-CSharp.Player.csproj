@@ -59,9 +59,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ThirdPersonCharacterController.cs" />
-    <Compile Include="Assets\Scripts\Playermanager.cs" />
+    <Compile Include="Assets\Scripts\playerInteract.cs" />
+    <Compile Include="Assets\Scripts\examinedObject.cs" />
     <Compile Include="Assets\Scripts\ItemPickup.cs" />
+    <Compile Include="Assets\Scripts\PlayerInteraction.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonController.cs" />
+    <Compile Include="Assets\Scripts\Object Examiner.cs" />
+    <Compile Include="Assets\Scripts\UIManager.cs" />
+    <Compile Include="Assets\Scripts\InteractPanel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
