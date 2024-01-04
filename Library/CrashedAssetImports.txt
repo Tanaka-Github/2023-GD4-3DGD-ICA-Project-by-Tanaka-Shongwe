@@ -1,0 +1,1 @@
+Assets/NatureStarterKit2/Nature/bush02_Textures/translucency_gloss.png
