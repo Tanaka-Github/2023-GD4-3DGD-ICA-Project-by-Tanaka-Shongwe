@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class spinning : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+    public int ScoreValue = 1;
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -15,13 +17,16 @@ public class spinning : MonoBehaviour {
 		transform.Rotate(0,9,0);
 
 	}
-      
-	  private void OnTriggerEnter(Collider other){
 
-		  if( other.name == "Player")
+	private void OnTriggerEnter(Collider other)
+	{
 
-		  Destroy(gameObject);  }
-
+		if (other.name == "Player")
+		{
+			ScoreManager.score += ScoreValue;
+			Destroy(gameObject);
+		}
+	}
 
 
 }

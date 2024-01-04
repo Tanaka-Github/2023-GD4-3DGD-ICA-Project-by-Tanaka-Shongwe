@@ -52,7 +52,8 @@ public float Countdown = 5f;
 
  void Die (){
     
-    ScoreManager.score += ScoreValue;
+        // My intention was to use this for a powerup
+   // ScoreManager.score += ScoreValue;
 	 Destroy(gameObject);
      GetComponent<AudioSource>().Play();
      //Record();

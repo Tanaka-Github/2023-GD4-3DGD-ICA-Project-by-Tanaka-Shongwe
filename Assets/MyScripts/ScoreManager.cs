@@ -34,7 +34,7 @@ public class ScoreManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-		text.text = "Enemies Destroyed: " +score;
+		text.text = "Apples Collected: " +score;
 
  		if(score >= 10)
 		{       Count -= Time.deltaTime; 

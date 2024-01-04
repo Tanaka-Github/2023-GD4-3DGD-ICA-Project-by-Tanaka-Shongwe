@@ -32,6 +32,7 @@
 -define:PLATFORM_ARCH_64
 -define:UNITY_64
 -define:UNITY_INCLUDE_TESTS
+-define:UNITY_ANALYTICS
 -define:ENABLE_AR
 -define:ENABLE_AUDIO
 -define:ENABLE_CACHING
@@ -402,6 +403,7 @@
 "Assets/MyScripts/PauseGameMenu.cs"
 "Assets/MyScripts/Playermanager.cs"
 "Assets/MyScripts/Quit.cs"
+"Assets/MyScripts/RetryScript.cs"
 "Assets/MyScripts/Sa.cs"
 "Assets/MyScripts/ScoreManager.cs"
 "Assets/MyScripts/shoot.cs"
@@ -413,7 +415,6 @@
 "Assets/MyScripts/SpottingTarget.cs"
 "Assets/MyScripts/ThirdpersonCameraController.cs"
 "Assets/MyScripts/ThirdPersonCharacterController.cs"
-"Assets/MyScripts/TorQ.cs"
 "Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs"
 "Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs"
 "Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs"

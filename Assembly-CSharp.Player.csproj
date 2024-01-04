@@ -71,7 +71,6 @@
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
-    <Compile Include="Assets\MyScripts\TorQ.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
@@ -88,6 +87,7 @@
     <Compile Include="Assets\WorldBuilder\Scripts\TerrainFoliage.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
     <Compile Include="Assets\MyScripts\KilledIT.cs" />
+    <Compile Include="Assets\MyScripts\RetryScript.cs" />
     <Compile Include="Assets\MyScripts\dead.cs" />
     <Compile Include="Assets\MyScripts\MuzzleBlast.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
