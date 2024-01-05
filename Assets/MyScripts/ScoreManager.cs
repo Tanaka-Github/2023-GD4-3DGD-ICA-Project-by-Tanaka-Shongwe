@@ -36,7 +36,7 @@ public class ScoreManager : MonoBehaviour {
 		
 		text.text = "Apples Collected: " +score;
 
- 		if(score >= 10)
+ 		if(score >= 2)
 		{       Count -= Time.deltaTime; 
 
 		if (Count <= 0){
