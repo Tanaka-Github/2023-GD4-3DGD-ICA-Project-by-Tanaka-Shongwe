@@ -43,7 +43,7 @@ public class ScoreManager : MonoBehaviour {
 			
 			if (Count <= 0){
 			   	 Count = 1000f/Drate;
-                 Instantiate(D, X.position , X.rotation );
+              //   Instantiate(D, X.position , X.rotation );
 				 Clip.enabled = false;
 				 Instantiate(Text2, transform.position , transform.rotation);
                 WinGame();
