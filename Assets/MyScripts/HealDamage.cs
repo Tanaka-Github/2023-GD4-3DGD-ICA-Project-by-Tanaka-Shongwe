@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DMg : MonoBehaviour {
+public class HealDamage : MonoBehaviour {
 
 public bool isDamaging;
 public float damage = 20;
