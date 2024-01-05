@@ -3,8 +3,7 @@ using UnityEngine;
 
 public class SpottingTarget : MonoBehaviour {
 
-public GameObject bulletPrefab;
-public Transform Barrel;
+
 public Transform me;
 public float FireRate = 5f;
 public float Countdown = 0f;
@@ -45,7 +44,6 @@ if(nearestPlayer != null && ShortestDistance <= range)
 	// Update is called once per frame
 	void Update () {
      
-Barrel.transform.LookAt(me);
 
 	 if ( me == null)
 	 {
@@ -56,28 +54,14 @@ Barrel.transform.LookAt(me);
        if(Countdown <= 0f)
 		{
 	GetComponent<AudioSource>().Play();
-		Firing();
+	
 		Countdown = 0.8f/FireRate;
 		}
 
 		Countdown -= Time.deltaTime; 
 	}
 
-	 void Firing ()
-	 {
-        
-     GameObject BulletGo = (GameObject)Instantiate(bulletPrefab, Barrel.position, Barrel.rotation);
-             blasting bullet = BulletGo.GetComponent<blasting>();
-                	GetComponent<AudioSource>().Play();
-			 if(bullet != null )
-			 {
-                bullet.Seek(me);
 
-           
-			 }
-
-
-	 }
 	void OnDrawGizmoSelected ()
 	{
        Gizmos.color = Color.green;

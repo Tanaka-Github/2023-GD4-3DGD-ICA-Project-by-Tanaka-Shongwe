@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
-	
-
+using UnityEditor;
 
 public class ScoreManager : MonoBehaviour {
 
@@ -18,6 +16,7 @@ public class ScoreManager : MonoBehaviour {
 	public float Delay = 0f;
 	public AudioSource Clip;
 	public GameObject Text2;
+	public GameObject Player;
 
 	Text text;
 
@@ -34,18 +33,22 @@ public class ScoreManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-		text.text = "Apples Collected: " +score;
+		text.text = "Apples Collected: " + score;
 
  		if(score >= 2)
-		{       Count -= Time.deltaTime; 
-
-		if (Count <= 0){
+		{       Count -= Time.deltaTime;
+			//  Instantiate(D, transform.position, transform.rotation);
+			//  Instantiate(D, X.position, X.rotation);
+		
+			
+			if (Count <= 0){
 			   	 Count = 1000f/Drate;
                  Instantiate(D, X.position , X.rotation );
 				 Clip.enabled = false;
 				 Instantiate(Text2, transform.position , transform.rotation);
-				 Skv();
-		}
+                WinGame();
+
+            }
 				
 		}
 
@@ -53,13 +56,31 @@ public class ScoreManager : MonoBehaviour {
 
 		
 	}
+    public void WinGame()
+	{
 
-	public void Skv(){
-	
- 	
-	
+            if(D.gameObject.activeInHierarchy == false)
+			{
+                   D.gameObject.SetActive(true);
+			if (Count <= 0f){Time.timeScale = 0;}
+                    Player.GetComponent<ThirdPersonCharacterController>(). enabled =false;
+					//Player.GetComponent<CursorStyle>().enabled = false;
 				
+			         Cursor.visible = true;
+		            Cursor.lockState = CursorLockMode.None;
+					}
+        else
+		{
+			D.gameObject.SetActive(false);
+			Time.timeScale = 1;
+		 Player.GetComponent<ThirdPersonCharacterController>(). enabled =true;
+        // Player.GetComponent<CursorStyle>().enabled = true;
+			 Cursor.visible = false;
+		           Cursor.lockState = CursorLockMode.Locked;
 		}
+	}
+
+
 
 	
 }

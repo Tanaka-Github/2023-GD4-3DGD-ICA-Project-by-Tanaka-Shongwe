@@ -81,7 +81,6 @@
     <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\GunShoot.cs" />
-    <Compile Include="Assets\MyScripts\EnemyUIHealth.cs" />
     <Compile Include="Assets\MyScripts\DMg.cs" />
     <Compile Include="Assets\MyScripts\jump.cs" />
     <Compile Include="Assets\MyScripts\splashFade.cs" />
