@@ -17,7 +17,7 @@ public class PlayerInteract : MonoBehaviour
     void Start()
     {
         //  Display.SetActive(false);
-     //   TextDisplay.SetActive(false);
+        TextDisplay.SetActive(false);
 
     }
 

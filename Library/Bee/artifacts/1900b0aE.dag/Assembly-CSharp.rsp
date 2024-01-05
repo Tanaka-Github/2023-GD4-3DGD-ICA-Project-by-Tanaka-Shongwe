@@ -32,7 +32,6 @@
 -define:PLATFORM_ARCH_64
 -define:UNITY_64
 -define:UNITY_INCLUDE_TESTS
--define:UNITY_ANALYTICS
 -define:ENABLE_AR
 -define:ENABLE_AUDIO
 -define:ENABLE_CACHING
@@ -391,21 +390,13 @@
 "Assets/MyScripts/Countdown.cs"
 "Assets/MyScripts/CursorStyle.cs"
 "Assets/MyScripts/CursorUnlocked.cs"
-"Assets/MyScripts/DBarrel.cs"
 "Assets/MyScripts/dead.cs"
 "Assets/MyScripts/DeathCount.cs"
-"Assets/MyScripts/DTracker.cs"
 "Assets/MyScripts/Enemy.cs"
-"Assets/MyScripts/fly.cs"
-"Assets/MyScripts/HBLAST.cs"
 "Assets/MyScripts/HealDamage.cs"
 "Assets/MyScripts/HealthBar.cs"
-"Assets/MyScripts/Hit.cs"
 "Assets/MyScripts/jump.cs"
 "Assets/MyScripts/Jumpup.cs"
-"Assets/MyScripts/KilledIT.cs"
-"Assets/MyScripts/MuzzleBlast.cs"
-"Assets/MyScripts/MyBarrel.cs"
 "Assets/MyScripts/PauseGameMenu.cs"
 "Assets/MyScripts/Playermanager.cs"
 "Assets/MyScripts/PlayerMovement.cs"
@@ -415,12 +406,10 @@
 "Assets/MyScripts/ScoreManager.cs"
 "Assets/MyScripts/Scripatble Objects/ObjectExamine.cs"
 "Assets/MyScripts/Scripatble Objects/playerInteract.cs"
-"Assets/MyScripts/shoot.cs"
 "Assets/MyScripts/Song.cs"
 "Assets/MyScripts/Spawn.cs"
 "Assets/MyScripts/spawning.cs"
 "Assets/MyScripts/spinning.cs"
-"Assets/MyScripts/splashFade.cs"
 "Assets/MyScripts/SpottingTarget.cs"
 "Assets/MyScripts/ThirdpersonCameraController.cs"
 "Assets/MyScripts/ThirdPersonCharacterController.cs"

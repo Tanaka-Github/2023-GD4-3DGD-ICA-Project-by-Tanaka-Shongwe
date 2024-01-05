@@ -51,15 +51,7 @@ if(nearestPlayer != null && ShortestDistance <= range)
 		 
      }
 
-       if(Countdown <= 0f)
-		{
-	GetComponent<AudioSource>().Play();
-	
-		Countdown = 0.8f/FireRate;
-		}
-
-		Countdown -= Time.deltaTime; 
-	}
+    	}
 
 
 	void OnDrawGizmoSelected ()

@@ -10,7 +10,7 @@ public class ScoreManager : MonoBehaviour {
 	public static int score;
 	public string level;
 	public Transform X;
-    public GameObject D;
+    public GameObject canvas;
 	public float Drate= 1f;
 	public float Count = 1f;
 	public float Delay = 0f;
@@ -35,7 +35,7 @@ public class ScoreManager : MonoBehaviour {
 		
 		text.text = "Apples Collected: " + score;
 
- 		if(score >= 6)
+ 		if(score >= 3)
 		{       Count -= Time.deltaTime;
 			//  Instantiate(D, transform.position, transform.rotation);
 			//  Instantiate(D, X.position, X.rotation);
@@ -59,19 +59,21 @@ public class ScoreManager : MonoBehaviour {
     public void WinGame()
 	{
 
-            if(D.gameObject.activeInHierarchy == false)
+            if(canvas.gameObject.activeInHierarchy == false)
 			{
-                   D.gameObject.SetActive(true);
+                   canvas.gameObject.SetActive(true);
+
 			if (Count <= 0f){Time.timeScale = 0;}
-                    Player.GetComponent<ThirdPersonCharacterController>(). enabled =false;
-					//Player.GetComponent<CursorStyle>().enabled = false;
+            
+			Player.GetComponent<ThirdPersonCharacterController>(). enabled =false;
+				//Player.GetComponent<CursorStyle>().enabled = false;
 				
 			         Cursor.visible = true;
 		            Cursor.lockState = CursorLockMode.None;
-					}
+			}
         else
 		{
-			D.gameObject.SetActive(false);
+            canvas.gameObject.SetActive(false);
 			Time.timeScale = 1;
 		 Player.GetComponent<ThirdPersonCharacterController>(). enabled =true;
         // Player.GetComponent<CursorStyle>().enabled = true;

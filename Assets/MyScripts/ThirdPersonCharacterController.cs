@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ThirdPersonCharacterController : MonoBehaviour {
+public class ThirdPersonCharacterController : MonoBehaviour
+{
 
-// public AudioClip Walk;
-//public AudioSource Audio;
- public float Speed;
+    // public AudioClip Walk;
+    //public AudioSource Audio;
+    public float Speed;
     public float rotationSpeed;
     public Animator animator;
     public CharacterController characterController;
@@ -23,16 +24,17 @@ public class ThirdPersonCharacterController : MonoBehaviour {
 
     public float ySpeed;
 
-    void Update () {
-		
-		PlayerMovement();
-	}
-	 void PlayerMovement()
-	 {
+    void Update()
+    {
 
-       float hor = Input.GetAxis("Horizontal");
-       float ver = Input.GetAxis("Vertical");
-	   Vector3 playerMovement = new Vector3(hor, 0f,ver) * Speed * Time.deltaTime;
+        PlayerMovement();
+    }
+    void PlayerMovement()
+    {
+
+        float hor = Input.GetAxis("Horizontal");
+        float ver = Input.GetAxis("Vertical");
+        Vector3 playerMovement = new Vector3(hor, 0f, ver) * Speed * Time.deltaTime;
         float magnitude = Mathf.Clamp01(playerMovement.magnitude) * Speed;
         transform.Translate(playerMovement, Space.Self);
 

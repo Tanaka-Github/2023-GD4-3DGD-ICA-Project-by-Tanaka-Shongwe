@@ -63,7 +63,6 @@
     <Compile Include="Assets\MyScripts\Quit.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
     <Compile Include="Assets\WorldBuilder\Scripts\Heightmapbuilder.cs" />
-    <Compile Include="Assets\MyScripts\HBLAST.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
@@ -85,14 +84,11 @@
     <Compile Include="Assets\MyScripts\RetryScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\MyScripts\dead.cs" />
-    <Compile Include="Assets\MyScripts\MuzzleBlast.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\GunShoot.cs" />
     <Compile Include="Assets\MyScripts\jump.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
-    <Compile Include="Assets\MyScripts\splashFade.cs" />
-    <Compile Include="Assets\MyScripts\Hit.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
     <Compile Include="Assets\MyScripts\Scripatble Objects\ObjectExamine.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -121,10 +117,8 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
-    <Compile Include="Assets\MyScripts\MyBarrel.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
-    <Compile Include="Assets\MyScripts\shoot.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\MyScripts\DeathCount.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
@@ -141,7 +135,6 @@
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
     <Compile Include="Assets\WorldBuilder\Scripts\TerrainFoliage.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
-    <Compile Include="Assets\MyScripts\KilledIT.cs" />
     <Compile Include="Assets\MyScripts\PlayerMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
@@ -151,7 +144,6 @@
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
     <Compile Include="Assets\MyScripts\Scripatble Objects\playerInteract.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
-    <Compile Include="Assets\MyScripts\DTracker.cs" />
     <Compile Include="Assets\MyScripts\HealthBar.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
@@ -165,11 +157,9 @@
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
     <Compile Include="Assets\MyScripts\spawning.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
-    <Compile Include="Assets\MyScripts\DBarrel.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
     <Compile Include="Assets\MyScripts\ThirdPersonCharacterController.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
-    <Compile Include="Assets\MyScripts\fly.cs" />
     <Compile Include="Assets\MyScripts\Countdown.cs" />
     <Compile Include="Assets\MyScripts\PauseGameMenu.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
